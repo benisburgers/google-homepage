@@ -1,0 +1,11 @@
+li {
+  float: left;
+  list-style-type: none;
+  margin-left: 10px;
+}
+#externalities {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+}
