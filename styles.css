@@ -30,3 +30,28 @@ input {
   border: 1px solid grey;
   box-shadow:0px 1px 1px grey;
 }
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+  text-align: center;
+  left-margin: -10px;
+	}
+	ul#horizontal-list li {
+		display: inline-block;
+    background-color: grey;
+    font-family: arial;
+    padding: 8px;
+    margin: 2px;
+    font-size: 15px;
+	}
