@@ -49,38 +49,32 @@ ul#horizontal-list {
 
 	ul#horizontal-list li {
 		display: inline-block;
-    background-color: grey;
+    background-color: #F8F8F8;
     font-family: arial;
-    padding: 8px;
+    padding: 10px 20px;
     margin: 2px;
-    font-size: 15px;
+    font-size: 13px;
 	}
 
   #language-options{
     height: 84px;
-    background-color: red;
   }
 
 #description {
   display: inline-block;
-  margin-right: 0px;
-  background-color: green;
-  font-size: 20px;
 }
 
 ul#language-list {
+  display: inline-block;
+  text-align: center;
   min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
-  text-align: center;
-  display: inline-block;
+  font-size: 13px;
+  font-family: arial;
 }
 
 ul#language-list li {
   display: inline-block;
-  background-color: blue;
-  font-family: arial;
-  padding: 8px;
   margin: 2px;
-  font-size: 15px;
 }
