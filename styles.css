@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 #externalities {
   position: fixed;
   top: 0;
@@ -77,4 +83,28 @@ ul#language-list {
 ul#language-list li {
   display: inline-block;
   margin: 2px;
+}
+
+#one {
+  background-color: #F2F2F2;
+  padding: 10px 0px;
+  font-family: arial;
+  margin: 0;
+  border: 0;
+  width: 100%;
+}
+
+#one p {
+  margin: 0;
+  border: 0;
+  padding: 0px 20px;
+}
+
+#two {
+  background-color: #F2F2F2;
+  padding: 12px 24px;
+  font-family: arial;
+  margin: 0;
+  border: 0;
+  width: 100%;
 }
