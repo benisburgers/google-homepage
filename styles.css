@@ -188,7 +188,3 @@ a:link {
   border: 1px solid grey;
   color: black;
 }
-
-.cursor-switch:hover {
-  cursor:pointer;
-}
