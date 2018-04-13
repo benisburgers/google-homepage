@@ -184,6 +184,22 @@ a:link {
   text-decoration: none;
 }
 
+#two a:link {
+  color: inherit;
+}
+
+#two a:visited {
+  color:inherit;
+}
+
+#externalities a:link {
+  color:inherit;
+}
+
+#externalities a:visited {
+  color:inherit;
+}
+
 #horizontal-list li:hover {
   border: 1px solid grey;
   color: black;
