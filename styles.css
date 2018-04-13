@@ -45,8 +45,8 @@ ul#horizontal-list {
 	list-style: none;
 	padding-top: 20px;
   text-align: center;
-  left-margin: -10px;
 	}
+
 	ul#horizontal-list li {
 		display: inline-block;
     background-color: grey;
@@ -55,3 +55,32 @@ ul#horizontal-list {
     margin: 2px;
     font-size: 15px;
 	}
+
+  #language-options{
+    height: 84px;
+    background-color: red;
+  }
+
+#description {
+  display: inline-block;
+  margin-right: 0px;
+  background-color: green;
+  font-size: 20px;
+}
+
+ul#language-list {
+  min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+ul#language-list li {
+  display: inline-block;
+  background-color: blue;
+  font-family: arial;
+  padding: 8px;
+  margin: 2px;
+  font-size: 15px;
+}
