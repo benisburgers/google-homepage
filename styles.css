@@ -4,6 +4,7 @@ body {
   border: 0;
   min-height: 100%;
   height: 100%;
+  font-family: arial, sans-serif;
 }
 
 #externalities {
@@ -17,14 +18,32 @@ body {
 
 #externalities li {
   list-style-type: none;
-  margin-left: 10px;
-  padding-left: 5px;
+  margin-left: 12px;
+  padding-left: 10px;
   display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
 }
 
-img {
-  display: block;
+#anmelden {
+  background-color: #4486F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#externalities img {
+  display: inline-block;
   width: 15px;
+}
+
+#externalities img:hover {
+  filter:contrast(1000%);
 }
 
 #logo {
@@ -36,6 +55,8 @@ img {
 #searchbar {
   width:100%;
   text-align:center;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 input {
@@ -67,9 +88,12 @@ ul#horizontal-list {
 		display: inline-block;
     background-color: #F8F8F8;
     font-family: arial;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin: 2px;
     font-size: 13px;
+    font-weight: bold;
+    color: grey;
+    border-radius: 2px;
 	}
 
   #language-options{
@@ -158,4 +182,13 @@ width:100%;
 
 a:link {
   text-decoration: none;
+}
+
+#horizontal-list li:hover {
+  border: 1px solid grey;
+  color: black;
+}
+
+.cursor-switch:hover {
+  cursor:pointer;
 }
