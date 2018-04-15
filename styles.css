@@ -68,23 +68,20 @@ input {
   box-shadow:0px 1px 1px grey;
 }
 
-#menu-outer {
-	height: 84px;
-}
 
 .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
 }
 
-ul#horizontal-list {
+.search-options {
 	min-width: 696px;
 	list-style: none;
 	padding-top: 20px;
   text-align: center;
 	}
 
-	ul#horizontal-list li {
+	.search-options li {
 		display: inline-block;
     background-color: #F8F8F8;
     font-family: arial;
@@ -199,7 +196,7 @@ a:link {
   color:inherit;
 }
 
-#horizontal-list li:hover {
+.search-options li:hover {
   border: 1px solid grey;
   color: black;
 }
