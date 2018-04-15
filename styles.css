@@ -7,7 +7,7 @@ body {
   font-family: arial, sans-serif;
 }
 
-#links {
+.links {
   position: fixed;
   top: 0;
   right: 0;
@@ -16,13 +16,30 @@ body {
   text-align: right;
 }
 
-#links li {
+.links li {
   list-style-type: none;
   margin-left: 12px;
   padding-left: 10px;
   display: inline-block;
   font-family: arial, sans-serif;
   font-size: 13px;
+}
+
+.links a:link {
+  color:inherit;
+}
+
+.links a:visited {
+  color:inherit;
+}
+
+.links img {
+  display: inline-block;
+  width: 15px;
+}
+
+.links img:hover {
+  filter:contrast(1000%);
 }
 
 #anmelden {
@@ -37,16 +54,7 @@ body {
   margin-left: 10px;
 }
 
-#links img {
-  display: inline-block;
-  width: 15px;
-}
-
-#links img:hover {
-  filter:contrast(1000%);
-}
-
-#logo {
+.logo {
   width: 270px;
   display:block;
   margin: 200px auto auto auto;
@@ -177,13 +185,5 @@ a:link {
 }
 
 .bottom-footer a:visited {
-  color:inherit;
-}
-
-#links a:link {
-  color:inherit;
-}
-
-#links a:visited {
   color:inherit;
 }
