@@ -18,9 +18,9 @@ body {
 
 .links li {
   list-style-type: none;
+  display: inline-block;
   margin-left: 12px;
   padding-left: 10px;
-  display: inline-block;
   font-family: arial, sans-serif;
   font-size: 13px;
 }
@@ -32,14 +32,11 @@ body {
 
 #anmelden {
   background-color: #4486F8;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding: 10px 14px;;
+  margin-left: 10px;
   color: white;
   border-radius: 2px;
   font-weight: bold;
-  margin-left: 10px;
 }
 
 .links a:link {
@@ -61,7 +58,6 @@ body {
 }
 
 .searchbar {
-  width:100%;
   text-align:center;
   margin-top: 10px;
   margin-bottom: 8px;
@@ -69,10 +65,10 @@ body {
 
 input {
   margin-top: 21px;
-  width: 44%;
   padding: 12px;
-  font-size: 15px;
+  width: 44%;
   border: 1px solid grey;
+  font-size: 15px;
   box-shadow:0px 1px 1px grey;
 }
 
@@ -92,9 +88,9 @@ input {
 .search-options li {
 	display: inline-block;
   background-color: #F8F8F8;
-  font-family: arial;
   padding: 15px 20px;
   margin: 2px;
+  font-family: arial;
   font-size: 13px;
   font-weight: bold;
   color: grey;
@@ -139,36 +135,36 @@ width:100%;
 }
 
 .bottom-footer {
-  background-color: #F2F2F2;
   padding: 10px 0px;
-  font-family: arial;
-  font-size: 13px;
-  margin: 0;
-  border: 0;
   width: 100%;
   border-top: solid 1px grey;
+  font-family: arial;
+  font-size: 13px;
+  background-color: #F2F2F2;
 }
 
-.links-left {
-  margin: 0;
-  border: 0;
+.bottom-footer a:link {
+  color: inherit;
+}
+
+.bottom-footer a:visited {
+  color:inherit;
+}
+
+.bottom-footer-left, .bottom-footer-right {
   padding: 0px 20px;
   display: inline-block;
 }
 
-.links-left a {
+.bottom-footer-left a {
   padding-right: 20px;
 }
 
-.links-right {
-  margin: 0;
-  border: 0;
-  padding: 0px 20px;
+.bottom-footer-right {
   float: right;
-  display: inline-block;
 }
 
-.links-right a {
+.bottom-footer-right a {
 padding-left: 20px;
 }
 
@@ -178,12 +174,4 @@ padding-left: 20px;
 
 a:link {
   text-decoration: none;
-}
-
-.bottom-footer a:link {
-  color: inherit;
-}
-
-.bottom-footer a:visited {
-  color:inherit;
 }
