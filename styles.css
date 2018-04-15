@@ -52,7 +52,7 @@ body {
   margin: 200px auto auto auto;
 }
 
-#searchbar {
+.searchbar {
   width:100%;
   text-align:center;
   margin-top: 10px;
@@ -68,16 +68,17 @@ input {
   box-shadow:0px 1px 1px grey;
 }
 
-
 .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
 }
 
-.search-options {
+.horizontal-list {
   text-align: center;
-  list-style: none;
+	list-style: none;
 	padding-top: 20px;
+  font-size: 13px;
+  font-family: arial;
 	}
 
 .search-options li {
@@ -92,15 +93,12 @@ input {
   border-radius: 2px;
 }
 
-.language-list {
-  text-align: center;
-	list-style: none;
-	padding-top: 20px;
-  font-size: 13px;
-  font-family: arial;
+.search-options li:hover {
+  border: 1px solid grey;
+  color: black;
 }
 
-.language-list li {
+.languages li {
   display: inline-block;
   margin: 2px;
 }
@@ -188,9 +186,4 @@ a:link {
 
 #links a:visited {
   color:inherit;
-}
-
-.search-options li:hover {
-  border: 1px solid grey;
-  color: black;
 }
