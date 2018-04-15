@@ -1,4 +1,4 @@
-body {
+.language-listbody {
   margin: 0;
   padding: 0;
   border: 0;
@@ -7,7 +7,7 @@ body {
   font-family: arial, sans-serif;
 }
 
-#externalities {
+#links {
   position: fixed;
   top: 0;
   right: 0;
@@ -16,7 +16,7 @@ body {
   text-align: right;
 }
 
-#externalities li {
+#links li {
   list-style-type: none;
   margin-left: 12px;
   padding-left: 10px;
@@ -37,12 +37,12 @@ body {
   margin-left: 10px;
 }
 
-#externalities img {
+#links img {
   display: inline-block;
   width: 15px;
 }
 
-#externalities img:hover {
+#links img:hover {
   filter:contrast(1000%);
 }
 
@@ -96,15 +96,14 @@ ul#horizontal-list {
     border-radius: 2px;
 	}
 
-  #language-options{
+#language-options{
     height: 84px;
   }
-
-#description {
+.language-description {
   display: inline-block;
 }
 
-ul#language-list {
+.language-list {
   display: inline-block;
   text-align: center;
   min-width: 696px;
@@ -114,12 +113,19 @@ ul#language-list {
   font-family: arial;
 }
 
-ul#language-list li {
+.language-list li {
   display: inline-block;
   margin: 2px;
 }
 
-#one {
+.whole-footer {
+position:fixed;
+left:0px;
+bottom:0px;
+width:100%;
+}
+
+.top-footer {
   background-color: #F2F2F2;
   padding: 10px 0px;
   font-family: arial;
@@ -129,13 +135,13 @@ ul#language-list li {
   border-top: solid 1px grey;
 }
 
-#one div {
+.top-footer div {
   margin: 0;
   border: 0;
   padding: 0px 20px;
 }
 
-#two {
+.bottom-footer {
   background-color: #F2F2F2;
   padding: 10px 0px;
   font-family: arial;
@@ -146,18 +152,18 @@ ul#language-list li {
   border-top: solid 1px grey;
 }
 
-#links-one {
+.links-left {
   margin: 0;
   border: 0;
   padding: 0px 20px;
   display: inline-block;
 }
 
-#links-one span {
+.links-left span {
 padding-right: 20px;
 }
 
-#links-two {
+.links-right {
   margin: 0;
   border: 0;
   padding: 0px 20px;
@@ -165,15 +171,8 @@ padding-right: 20px;
   display: inline-block;
 }
 
-#links-two span {
+.links-right span {
 padding-left: 20px;
-}
-
-#total {
-position:fixed;
-left:0px;
-bottom:0px;
-width:100%;
 }
 
 .hover-underline:hover {
@@ -184,19 +183,19 @@ a:link {
   text-decoration: none;
 }
 
-#two a:link {
+.bottom-footer a:link {
   color: inherit;
 }
 
-#two a:visited {
+.bottom-footer a:visited {
   color:inherit;
 }
 
-#externalities a:link {
+#links a:link {
   color:inherit;
 }
 
-#externalities a:visited {
+#links a:visited {
   color:inherit;
 }
 
