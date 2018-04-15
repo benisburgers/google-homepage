@@ -25,21 +25,9 @@ body {
   font-size: 13px;
 }
 
-.links a:link {
-  color:inherit;
-}
-
-.links a:visited {
-  color:inherit;
-}
-
-.links img {
+#apps {
   display: inline-block;
   width: 15px;
-}
-
-.links img:hover {
-  filter:contrast(1000%);
 }
 
 #anmelden {
@@ -52,6 +40,18 @@ body {
   border-radius: 2px;
   font-weight: bold;
   margin-left: 10px;
+}
+
+.links a:link {
+  color:inherit;
+}
+
+.links a:visited {
+  color:inherit;
+}
+
+.links img:hover {
+  filter:contrast(1000%);
 }
 
 .logo {
